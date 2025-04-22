@@ -1,0 +1,42 @@
+🧪 Exercise: "Virtual Pet Store"
+🎯 Objective
+Create a program that uses the Abstract Factory pattern to simulate the creation of pet products based on the type of animal: dog or cat.
+
+🐶🐱 Requirements
+Your system should allow the creation of compatible products for each type of pet.
+
+Each pet has:
+
+A specific food.
+
+A specific toy.
+
+🧩 Required Interfaces
+Product interfaces:
+
+Food → method: getName(): string
+
+Toy → method: use(): void
+
+Abstract factory:
+
+PetFactory
+
+createFood(): Food
+
+createToy(): Toy
+
+Concrete factories:
+
+DogFactory
+
+CatFactory
+
+🧑‍💻 What you need to do (you can use TypeScript or pseudocode):
+Implement the Food and Toy interfaces.
+
+Create concrete classes: DogFood, DogToy, CatFood, CatToy.
+
+Implement the concrete factories for each pet type.
+
+Create a class PetStore that receives a PetFactory and displays the products.
