@@ -39,4 +39,4 @@ Create concrete classes: DogFood, DogToy, CatFood, CatToy.
 
 Implement the concrete factories for each pet type.
 
-Create a class PetStore that receives a PetFactory and displays the products.
+Create a class PetStore that receives a PetFactory and displays the products.   

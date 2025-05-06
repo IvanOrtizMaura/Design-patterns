@@ -1,0 +1,7 @@
+✅ Tareas:
+Crea una clase WavAdapter que implemente la interfaz AudioPlayer.
+
+El adaptador debe usar internamente una instancia de WavPlayer.
+
+El método playMp3 debe redirigir la llamada al método playWavFile.
+
